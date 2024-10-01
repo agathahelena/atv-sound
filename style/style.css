@@ -1,0 +1,134 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a {
+	text-decoration: none;
+}
+nav ul li.direita {
+	margin: 0px 70px 0px 0px ;
+	color: black;
+}
+/*=========================================
+                    TOPO
+==========================================*/
+header nav  {
+	display:flex ;
+	justify-content: space-between;
+}
+header nav ul  {
+	display: flex;
+	font-weight: bold;
+	;
+}
+header section h1 {
+	font-weight: bold;
+}
+section.banner div.texto {
+	padding: 10vw ;
+}
+header section.banner{
+	display: flex;
+}header section.banner div  {
+	padding: 2vw 4vw 2vw 4vw ;
+}
+header section.banner div h1 {
+	font-size: 4rem;
+}
+header section.banner div p.cinza {
+	padding: 2vw 1vw 2vw 1vw ;
+	font-size: 1rem;
+	color: rgb(80, 80, 77);
+}
+header section.banner div.samantha {
+	display: flex;
+	font-size: 1rem;
+	padding: 2px;
+}header section.banner div.samantha p span {
+	color: rgb(116, 116, 108);
+	padding: 2px 2px 2px 2px ;
+}
+section.banner div.samantha img {
+	padding: 0px 8px 0px 0px ;
+}
+section.lista div h1 {
+	font-size: 4rem ;
+	padding: 2vw;
+}
+section.lista div p {
+	padding: 2vw  ;
+	font-size: 1rem;
+}
+section.lista div.lado {
+	display: flex;
+}
+section.lista div.lado ul li {
+	margin: 30px 5px 30px 70px ;
+	font-size: 3rem;
+	border-top: 1px solid gray
+}
+section.lista div.lado ul li span.numero{
+	color:gray;
+	padding: 0 5px 0 0 ; 
+	font-weight: bold;
+}
+section.lista div.lado ul li span.pequeno {
+	color: gray;
+	font-size: 1.2rem;
+}
+footer nav p img {
+	padding: 5vw 40vw 0 40vw ;
+}
+section.lista  {
+	border-top: 1px solid rgb(17, 17, 17)
+}
+footer {
+	border-top: 1px solid rgb(17, 17, 17)
+}
+section.lista div.lado ul {
+	margin: 0 0 30px 0 ;
+}
